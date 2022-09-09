@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		19CE4EAD28CB632200E85E1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CE4EAC28CB632200E85E1D /* AppDelegate.swift */; };
 		19CE4EAF28CB632200E85E1D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CE4EAE28CB632200E85E1D /* SceneDelegate.swift */; };
-		19CE4EB128CB632200E85E1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CE4EB028CB632200E85E1D /* ViewController.swift */; };
+		19CE4EB128CB632200E85E1D /* FirstPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CE4EB028CB632200E85E1D /* FirstPageViewController.swift */; };
 		19CE4EB428CB632200E85E1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19CE4EB228CB632200E85E1D /* Main.storyboard */; };
 		19CE4EB628CB632800E85E1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19CE4EB528CB632800E85E1D /* Assets.xcassets */; };
 		19CE4EB928CB632800E85E1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19CE4EB728CB632800E85E1D /* LaunchScreen.storyboard */; };
+		19CE4EC228CB659A00E85E1D /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19CE4EC128CB659A00E85E1D /* Raleway-Regular.ttf */; };
+		19CE4EC428CB65A500E85E1D /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19CE4EC328CB65A500E85E1D /* Raleway-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		19CE4EA928CB632200E85E1D /* PassingDataExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassingDataExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19CE4EAC28CB632200E85E1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19CE4EAE28CB632200E85E1D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		19CE4EB028CB632200E85E1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		19CE4EB028CB632200E85E1D /* FirstPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPageViewController.swift; sourceTree = "<group>"; };
 		19CE4EB328CB632200E85E1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		19CE4EB528CB632800E85E1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19CE4EB828CB632800E85E1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19CE4EBA28CB632800E85E1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19CE4EC128CB659A00E85E1D /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		19CE4EC328CB65A500E85E1D /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,25 @@
 		19CE4EAB28CB632200E85E1D /* PassingDataExample */ = {
 			isa = PBXGroup;
 			children = (
+				19CE4EC028CB64F700E85E1D /* Fonts */,
 				19CE4EAC28CB632200E85E1D /* AppDelegate.swift */,
 				19CE4EAE28CB632200E85E1D /* SceneDelegate.swift */,
-				19CE4EB028CB632200E85E1D /* ViewController.swift */,
+				19CE4EB028CB632200E85E1D /* FirstPageViewController.swift */,
 				19CE4EB228CB632200E85E1D /* Main.storyboard */,
 				19CE4EB528CB632800E85E1D /* Assets.xcassets */,
 				19CE4EB728CB632800E85E1D /* LaunchScreen.storyboard */,
 				19CE4EBA28CB632800E85E1D /* Info.plist */,
 			);
 			path = PassingDataExample;
+			sourceTree = "<group>";
+		};
+		19CE4EC028CB64F700E85E1D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				19CE4EC128CB659A00E85E1D /* Raleway-Regular.ttf */,
+				19CE4EC328CB65A500E85E1D /* Raleway-SemiBold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +142,8 @@
 				19CE4EB928CB632800E85E1D /* LaunchScreen.storyboard in Resources */,
 				19CE4EB628CB632800E85E1D /* Assets.xcassets in Resources */,
 				19CE4EB428CB632200E85E1D /* Main.storyboard in Resources */,
+				19CE4EC228CB659A00E85E1D /* Raleway-Regular.ttf in Resources */,
+				19CE4EC428CB65A500E85E1D /* Raleway-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19CE4EB128CB632200E85E1D /* ViewController.swift in Sources */,
+				19CE4EB128CB632200E85E1D /* FirstPageViewController.swift in Sources */,
 				19CE4EAD28CB632200E85E1D /* AppDelegate.swift in Sources */,
 				19CE4EAF28CB632200E85E1D /* SceneDelegate.swift in Sources */,
 			);
