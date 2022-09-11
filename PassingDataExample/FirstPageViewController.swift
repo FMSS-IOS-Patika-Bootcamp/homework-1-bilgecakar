@@ -11,7 +11,7 @@ class FirstPageViewController: UIViewController {
 
     @IBOutlet weak var nameLabel: UILabel!                  //Represent customer's name
     @IBOutlet weak var surnameLabel: UILabel!               //Represent customer's surname
-    @IBOutlet weak var emailLabel: UILabel!                 //Represent customer's email adress
+    @IBOutlet weak var emailLabel: UILabel!                 //Represent customer's email address
     @IBOutlet weak var arrivalLabel: UILabel!               //Represenet arrival date
     @IBOutlet weak var departureLabel: UILabel!             //Represent departure date
     @IBOutlet weak var lookForLookingButton: UIButton! {

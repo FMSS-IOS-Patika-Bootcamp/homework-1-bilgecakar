@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JBd-yA-dbf">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -30,26 +29,26 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Oceanica Hotel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uCi-Mw-IbI">
-                                <rect key="frame" x="32" y="118" width="350" height="21.5"/>
+                                <rect key="frame" x="32" y="108" width="350" height="21.5"/>
                                 <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="18"/>
                                 <color key="textColor" name="PrimaryTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z6d-Th-gIu">
-                                <rect key="frame" x="32" y="149.5" width="350" height="70.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z6d-Th-gIu">
+                                <rect key="frame" x="32" y="139.5" width="350" height="70.5"/>
                                 <string key="text">Oceanica Hotel is one of the most recognizable resorts in Florida. It's  your dream place to immerse into atmosphere of relexation, freedom and lots of entertainments.  </string>
                                 <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="15"/>
                                 <color key="textColor" name="SecondaryTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Customer Information" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gja-8Z-bic">
-                                <rect key="frame" x="32" y="270" width="350" height="21.5"/>
+                                <rect key="frame" x="32" y="260" width="350" height="21.5"/>
                                 <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="18"/>
                                 <color key="textColor" name="PrimaryTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="gXa-Em-tO8" userLabel="Container Stack View">
-                                <rect key="frame" x="32" y="323.5" width="350" height="170"/>
+                                <rect key="frame" x="32" y="313.5" width="350" height="170"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="uRu-k7-Qzc" userLabel="Name Stack View">
                                         <rect key="frame" x="0.0" y="0.0" width="350" height="18"/>
@@ -139,7 +138,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="awA-mj-qsa">
-                                <rect key="frame" x="32" y="553.5" width="350" height="45"/>
+                                <rect key="frame" x="32" y="523.5" width="350" height="45"/>
                                 <color key="backgroundColor" name="PrimaryColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="Dlc-mS-73i"/>
@@ -160,7 +159,7 @@
                             <constraint firstItem="gXa-Em-tO8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="32" id="4tg-e9-71b"/>
                             <constraint firstItem="gja-8Z-bic" firstAttribute="top" secondItem="Z6d-Th-gIu" secondAttribute="bottom" constant="50" id="87X-Gv-5Se"/>
                             <constraint firstItem="Z6d-Th-gIu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="AZw-vH-3g6"/>
-                            <constraint firstItem="uCi-Mw-IbI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="BS7-ho-tyI"/>
+                            <constraint firstItem="uCi-Mw-IbI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="BS7-ho-tyI"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="awA-mj-qsa" secondAttribute="trailing" constant="32" id="COp-cN-VFg"/>
                             <constraint firstItem="awA-mj-qsa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="DQe-Om-pWd"/>
                             <constraint firstAttribute="trailing" secondItem="Z6d-Th-gIu" secondAttribute="trailing" constant="32" id="GjS-Fx-6Dj"/>
@@ -169,7 +168,7 @@
                             <constraint firstItem="gXa-Em-tO8" firstAttribute="top" secondItem="gja-8Z-bic" secondAttribute="bottom" constant="32" id="Xdt-Gp-5gW"/>
                             <constraint firstItem="gja-8Z-bic" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="iCS-sb-LFV"/>
                             <constraint firstItem="Z6d-Th-gIu" firstAttribute="top" secondItem="uCi-Mw-IbI" secondAttribute="bottom" constant="10" id="ki1-u1-agj"/>
-                            <constraint firstItem="awA-mj-qsa" firstAttribute="top" secondItem="gXa-Em-tO8" secondAttribute="bottom" constant="60" id="pKI-pD-hKu"/>
+                            <constraint firstItem="awA-mj-qsa" firstAttribute="top" secondItem="gXa-Em-tO8" secondAttribute="bottom" constant="40" id="pKI-pD-hKu"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uCi-Mw-IbI" secondAttribute="trailing" constant="32" id="udd-GW-3bE"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gja-8Z-bic" secondAttribute="trailing" constant="32" id="wQP-9A-ctE"/>
                         </constraints>
@@ -197,31 +196,31 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rfZ-sS-qGC" userLabel="Hotel Info View">
-                                <rect key="frame" x="32" y="54" width="350" height="180"/>
+                                <rect key="frame" x="32" y="54" width="350" height="160"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HotelBedroom" translatesAutoresizingMaskIntoConstraints="NO" id="N5Y-Fl-vfR">
-                                        <rect key="frame" x="0.0" y="0.0" width="350" height="180"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="350" height="160"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="180" id="Fw9-GU-4FF"/>
+                                            <constraint firstAttribute="height" constant="160" id="Fw9-GU-4FF"/>
                                         </constraints>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="15"/>
                                         </userDefinedRuntimeAttributes>
                                     </imageView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="34n-A5-IFL" userLabel="Address View">
-                                        <rect key="frame" x="10" y="90" width="330" height="80"/>
+                                        <rect key="frame" x="10" y="70" width="330" height="80"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Oceanica Hotel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A7Z-sy-HLP">
-                                                <rect key="frame" x="10" y="16" width="310" height="20"/>
-                                                <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="17"/>
+                                                <rect key="frame" x="10" y="16" width="310" height="19"/>
+                                                <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="16"/>
                                                 <color key="textColor" name="PrimaryTextColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JlL-Lf-DgN">
-                                                <rect key="frame" x="10" y="36" width="310" height="33"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JlL-Lf-DgN">
+                                                <rect key="frame" x="10" y="35" width="310" height="28.5"/>
                                                 <string key="text">Westford, MA 01886 46 Glenwood Ave.
 Bay City,  MI 48706</string>
-                                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="14"/>
+                                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="12"/>
                                                 <color key="textColor" name="PrimaryTextColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -248,20 +247,20 @@ Bay City,  MI 48706</string>
                                     <constraint firstAttribute="trailing" secondItem="N5Y-Fl-vfR" secondAttribute="trailing" id="Fqe-Sc-xe2"/>
                                     <constraint firstAttribute="trailing" secondItem="34n-A5-IFL" secondAttribute="trailing" constant="10" id="Gbz-dV-u2U"/>
                                     <constraint firstItem="N5Y-Fl-vfR" firstAttribute="leading" secondItem="rfZ-sS-qGC" secondAttribute="leading" id="KHJ-Qe-6kB"/>
-                                    <constraint firstItem="34n-A5-IFL" firstAttribute="top" secondItem="rfZ-sS-qGC" secondAttribute="top" constant="90" id="N52-yy-idF"/>
+                                    <constraint firstItem="34n-A5-IFL" firstAttribute="top" secondItem="rfZ-sS-qGC" secondAttribute="top" constant="70" id="N52-yy-idF"/>
                                     <constraint firstItem="N5Y-Fl-vfR" firstAttribute="top" secondItem="rfZ-sS-qGC" secondAttribute="top" id="OG8-P3-U2Y"/>
                                     <constraint firstAttribute="bottom" secondItem="N5Y-Fl-vfR" secondAttribute="bottom" id="fTQ-Ta-EiR"/>
                                     <constraint firstItem="34n-A5-IFL" firstAttribute="leading" secondItem="rfZ-sS-qGC" secondAttribute="leading" constant="10" id="gZN-63-K4x"/>
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Available Facilities" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qcA-fh-awZ">
-                                <rect key="frame" x="32" y="254" width="350" height="21.5"/>
+                                <rect key="frame" x="32" y="234" width="350" height="21.5"/>
                                 <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="18"/>
                                 <color key="textColor" name="PrimaryTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="X6D-Lu-Jkw" userLabel="Facilities Stack View">
-                                <rect key="frame" x="32" y="290.5" width="350" height="54"/>
+                                <rect key="frame" x="32" y="270.5" width="350" height="54"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xa9-LC-PKp" userLabel="Wifi View">
                                         <rect key="frame" x="0.0" y="0.0" width="54" height="54"/>
@@ -371,7 +370,7 @@ Bay City,  MI 48706</string>
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="K1A-HH-dCN" userLabel="Name Info Stack View">
-                                <rect key="frame" x="32" y="376.5" width="350" height="60.5"/>
+                                <rect key="frame" x="32" y="344.5" width="350" height="60.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="3Sj-Ow-3Xh" userLabel="Name Stack View">
                                         <rect key="frame" x="0.0" y="0.0" width="159" height="60.5"/>
@@ -434,13 +433,13 @@ Bay City,  MI 48706</string>
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BX1-ha-Wel">
-                                <rect key="frame" x="32" y="469" width="350" height="21.5"/>
+                                <rect key="frame" x="32" y="425" width="350" height="21.5"/>
                                 <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="18"/>
                                 <color key="textColor" name="PrimaryTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="example@example.com" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lG2-Gf-6MC">
-                                <rect key="frame" x="32" y="495.5" width="350" height="34"/>
+                                <rect key="frame" x="32" y="451.5" width="350" height="34"/>
                                 <color key="backgroundColor" name="TextfieldBackgroundColor"/>
                                 <color key="textColor" name="PrimaryTextColor"/>
                                 <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="15"/>
@@ -452,23 +451,8 @@ Bay City,  MI 48706</string>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bmL-7Z-LHL">
-                                <rect key="frame" x="32" y="785" width="350" height="45"/>
-                                <color key="backgroundColor" name="PrimaryColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="45" id="0F4-B0-T8x"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Raleway-SemiBold" family="Raleway" pointSize="18"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Book">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="bookButtonPresses:" destination="hyv-r8-FST" eventType="touchUpInside" id="mTZ-3S-n2g"/>
-                                </connections>
-                            </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="Wxz-JF-SwO" userLabel="Date Info Stack View">
-                                <rect key="frame" x="32" y="561.5" width="350" height="60.5"/>
+                                <rect key="frame" x="32" y="505.5" width="350" height="60.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="yx1-EO-XO1" userLabel="Arrival Stack View">
                                         <rect key="frame" x="0.0" y="0.0" width="159" height="60.5"/>
@@ -530,6 +514,21 @@ Bay City,  MI 48706</string>
                                     </stackView>
                                 </subviews>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bmL-7Z-LHL">
+                                <rect key="frame" x="32" y="598" width="350" height="45"/>
+                                <color key="backgroundColor" name="PrimaryColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="0F4-B0-T8x"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Raleway-SemiBold" family="Raleway" pointSize="18"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Book">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="bookButtonPresses:" destination="hyv-r8-FST" eventType="touchUpInside" id="mTZ-3S-n2g"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="olS-vC-ux8"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -543,20 +542,20 @@ Bay City,  MI 48706</string>
                             <constraint firstItem="rfZ-sS-qGC" firstAttribute="top" secondItem="olS-vC-ux8" secondAttribute="top" constant="10" id="9Zh-Gs-9JK"/>
                             <constraint firstItem="olS-vC-ux8" firstAttribute="trailing" secondItem="qcA-fh-awZ" secondAttribute="trailing" constant="32" id="BDb-gs-0uf"/>
                             <constraint firstItem="qcA-fh-awZ" firstAttribute="leading" secondItem="olS-vC-ux8" secondAttribute="leading" constant="32" id="J46-uM-Aa0"/>
-                            <constraint firstItem="olS-vC-ux8" firstAttribute="bottom" secondItem="bmL-7Z-LHL" secondAttribute="bottom" constant="32" id="Jip-3r-dhH"/>
                             <constraint firstItem="olS-vC-ux8" firstAttribute="trailing" secondItem="K1A-HH-dCN" secondAttribute="trailing" constant="32" id="LKs-Wk-yMX"/>
-                            <constraint firstItem="BX1-ha-Wel" firstAttribute="top" secondItem="K1A-HH-dCN" secondAttribute="bottom" constant="32" id="NTs-x6-hXN"/>
+                            <constraint firstItem="BX1-ha-Wel" firstAttribute="top" secondItem="K1A-HH-dCN" secondAttribute="bottom" constant="20" id="NTs-x6-hXN"/>
                             <constraint firstItem="olS-vC-ux8" firstAttribute="trailing" secondItem="Wxz-JF-SwO" secondAttribute="trailing" constant="32" id="OOi-b5-Rc8"/>
                             <constraint firstItem="olS-vC-ux8" firstAttribute="trailing" secondItem="rfZ-sS-qGC" secondAttribute="trailing" constant="32" id="Oaw-Rq-ZdV"/>
                             <constraint firstItem="K1A-HH-dCN" firstAttribute="leading" secondItem="olS-vC-ux8" secondAttribute="leading" constant="32" id="XuX-BC-Zwf"/>
+                            <constraint firstItem="bmL-7Z-LHL" firstAttribute="top" secondItem="Wxz-JF-SwO" secondAttribute="bottom" constant="32" id="ZfE-X0-0Mk"/>
                             <constraint firstItem="BX1-ha-Wel" firstAttribute="leading" secondItem="olS-vC-ux8" secondAttribute="leading" constant="32" id="aAo-xI-ObF"/>
                             <constraint firstItem="X6D-Lu-Jkw" firstAttribute="top" secondItem="qcA-fh-awZ" secondAttribute="bottom" constant="15" id="aJa-Pu-EAq"/>
                             <constraint firstItem="lG2-Gf-6MC" firstAttribute="leading" secondItem="olS-vC-ux8" secondAttribute="leading" constant="32" id="fs7-9f-cqD"/>
                             <constraint firstItem="olS-vC-ux8" firstAttribute="trailing" secondItem="BX1-ha-Wel" secondAttribute="trailing" constant="32" id="ia7-c1-JBZ"/>
                             <constraint firstItem="X6D-Lu-Jkw" firstAttribute="leading" secondItem="olS-vC-ux8" secondAttribute="leading" constant="32" id="ioS-wq-7T0"/>
-                            <constraint firstItem="K1A-HH-dCN" firstAttribute="top" secondItem="X6D-Lu-Jkw" secondAttribute="bottom" constant="32" id="lwX-FX-D2f"/>
+                            <constraint firstItem="K1A-HH-dCN" firstAttribute="top" secondItem="X6D-Lu-Jkw" secondAttribute="bottom" constant="20" id="lwX-FX-D2f"/>
                             <constraint firstItem="Wxz-JF-SwO" firstAttribute="leading" secondItem="olS-vC-ux8" secondAttribute="leading" constant="32" id="ptb-r4-s4U"/>
-                            <constraint firstItem="Wxz-JF-SwO" firstAttribute="top" secondItem="lG2-Gf-6MC" secondAttribute="bottom" constant="32" id="qD5-Lx-J65"/>
+                            <constraint firstItem="Wxz-JF-SwO" firstAttribute="top" secondItem="lG2-Gf-6MC" secondAttribute="bottom" constant="20" id="qD5-Lx-J65"/>
                             <constraint firstItem="bmL-7Z-LHL" firstAttribute="leading" secondItem="olS-vC-ux8" secondAttribute="leading" constant="32" id="sdu-BL-cxD"/>
                             <constraint firstItem="rfZ-sS-qGC" firstAttribute="leading" secondItem="olS-vC-ux8" secondAttribute="leading" constant="32" id="wIP-M6-Ggf"/>
                         </constraints>
@@ -602,19 +601,19 @@ Bay City,  MI 48706</string>
         <image name="tv" catalog="system" width="128" height="97"/>
         <image name="wifi" catalog="system" width="128" height="91"/>
         <namedColor name="IconColor">
-            <color red="0.23137254901960785" green="0.61176470588235299" blue="0.63921568627450975" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.23100000619888306" green="0.6119999885559082" blue="0.63899999856948853" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="PrimaryColor">
-            <color red="0.61960784313725492" green="0.80392156862745101" blue="0.81960784313725488" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.62000000476837158" green="0.80400002002716064" blue="0.81999999284744263" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="PrimaryTextColor">
-            <color red="0.0078431372549019607" green="0.0078431372549019607" blue="0.0078431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0080000003799796104" green="0.0080000003799796104" blue="0.0080000003799796104" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="SecondaryTextColor">
-            <color red="0.59607843137254901" green="0.58431372549019611" blue="0.58431372549019611" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.59600001573562622" green="0.58399999141693115" blue="0.58399999141693115" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="TextfieldBackgroundColor">
-            <color red="0.92156862745098034" green="0.92156862745098034" blue="0.92156862745098034" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.92199999094009399" green="0.92199999094009399" blue="0.92199999094009399" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
