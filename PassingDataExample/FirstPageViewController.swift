@@ -26,5 +26,8 @@ class FirstPageViewController: UIViewController {
     
     //When press the button, second page'll open
     @IBAction func lookForLookingPressed(_ sender: Any) {
+        let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+        let secondPage = storyBoard.instantiateViewController(withIdentifier: "SecondPage") as! SecondPageViewController
+        self.navigationController?.pushViewController(secondPage, animated: true)
     }
 }
