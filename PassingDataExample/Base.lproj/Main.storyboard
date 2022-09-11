@@ -30,26 +30,26 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Oceanica Hotel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uCi-Mw-IbI">
-                                <rect key="frame" x="32" y="188" width="350" height="21.5"/>
+                                <rect key="frame" x="32" y="118" width="350" height="21.5"/>
                                 <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="18"/>
                                 <color key="textColor" name="PrimaryTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z6d-Th-gIu">
-                                <rect key="frame" x="32" y="219.5" width="350" height="70.5"/>
+                                <rect key="frame" x="32" y="149.5" width="350" height="70.5"/>
                                 <string key="text">Oceanica Hotel is one of the most recognizable resorts in Florida. It's  your dream place to immerse into atmosphere of relexation, freedom and lots of entertainments.  </string>
                                 <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="15"/>
                                 <color key="textColor" name="SecondaryTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Customer Information" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gja-8Z-bic">
-                                <rect key="frame" x="32" y="340" width="350" height="21.5"/>
+                                <rect key="frame" x="32" y="270" width="350" height="21.5"/>
                                 <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="18"/>
                                 <color key="textColor" name="PrimaryTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="gXa-Em-tO8" userLabel="Container Stack View">
-                                <rect key="frame" x="32" y="393.5" width="350" height="170"/>
+                                <rect key="frame" x="32" y="323.5" width="350" height="170"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="uRu-k7-Qzc" userLabel="Name Stack View">
                                         <rect key="frame" x="0.0" y="0.0" width="350" height="18"/>
@@ -139,7 +139,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="awA-mj-qsa">
-                                <rect key="frame" x="32" y="623.5" width="350" height="45"/>
+                                <rect key="frame" x="32" y="553.5" width="350" height="45"/>
                                 <color key="backgroundColor" name="PrimaryColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="Dlc-mS-73i"/>
@@ -160,7 +160,7 @@
                             <constraint firstItem="gXa-Em-tO8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="32" id="4tg-e9-71b"/>
                             <constraint firstItem="gja-8Z-bic" firstAttribute="top" secondItem="Z6d-Th-gIu" secondAttribute="bottom" constant="50" id="87X-Gv-5Se"/>
                             <constraint firstItem="Z6d-Th-gIu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="AZw-vH-3g6"/>
-                            <constraint firstItem="uCi-Mw-IbI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="BS7-ho-tyI"/>
+                            <constraint firstItem="uCi-Mw-IbI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="BS7-ho-tyI"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="awA-mj-qsa" secondAttribute="trailing" constant="32" id="COp-cN-VFg"/>
                             <constraint firstItem="awA-mj-qsa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="DQe-Om-pWd"/>
                             <constraint firstAttribute="trailing" secondItem="Z6d-Th-gIu" secondAttribute="trailing" constant="32" id="GjS-Fx-6Dj"/>
@@ -211,7 +211,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="34n-A5-IFL" userLabel="Address View">
                                         <rect key="frame" x="10" y="90" width="330" height="80"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hotel Del Luna" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A7Z-sy-HLP">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Oceanica Hotel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A7Z-sy-HLP">
                                                 <rect key="frame" x="10" y="16" width="310" height="20"/>
                                                 <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="17"/>
                                                 <color key="textColor" name="PrimaryTextColor"/>
@@ -582,6 +582,7 @@ Bay City,  MI 48706</string>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="frH-si-GQ0">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" name="PrimaryColor"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
