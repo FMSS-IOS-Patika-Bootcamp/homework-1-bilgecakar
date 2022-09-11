@@ -28,6 +28,14 @@ class FirstPageViewController: UIViewController {
     @IBAction func lookForLookingPressed(_ sender: Any) {
         let storyBoard = UIStoryboard(name: "Main", bundle: nil)
         let secondPage = storyBoard.instantiateViewController(withIdentifier: "SecondPage") as! SecondPageViewController
+        //Call onButtonTap closure and fill labels
+        secondPage.onButtonTap = { info in
+            self.nameLabel.text = info[0]
+            self.surnameLabel.text = info[1]
+            self.emailLabel.text = info[2]
+            self.arrivalLabel.text = info[3]
+            self.departureLabel.text = info[4]
+        }
         self.navigationController?.pushViewController(secondPage, animated: true)
     }
 }
